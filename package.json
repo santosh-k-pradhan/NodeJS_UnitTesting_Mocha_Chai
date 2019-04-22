@@ -4,7 +4,7 @@
   "description": "How to run Mocha/Chai unit tests on Node.js apps",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "Santosh K. Pradhan",
   "license": "ISC",
