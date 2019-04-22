@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "How to run Mocha/Chai unit tests on Node.js apps",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Santosh K. Pradhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.11",
+    "request": "^2.88.0"
+  }
+}

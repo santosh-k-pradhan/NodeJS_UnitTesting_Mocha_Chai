@@ -1,0 +1,2 @@
+Mocha -- the test running framework
+Chai -- the assertion library
