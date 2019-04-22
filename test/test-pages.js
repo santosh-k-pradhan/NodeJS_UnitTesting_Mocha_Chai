@@ -34,7 +34,7 @@ describe('Status and content', function() {
 
         it('content', function(done) {
             request('http://localhost:3000/' , function(error, response, body) {
-                expect(body).to.equal('First API Call...');
+                expect(body).to.equal('First API Call');
                 done();
             });
         });
